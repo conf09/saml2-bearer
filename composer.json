@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saml\\Bearer\\Saml2BearerProvider"
+                "Saml\\Bearer\\Saml2BearerServiceProvider"
             ]
         }
     },

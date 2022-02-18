@@ -6,7 +6,7 @@ use OneLogin\Saml2\Utils as OneLogin_Saml2_Utils;
 use Illuminate\Support\ServiceProvider;
 use Saml\Bearer\Oauth\OauthTokenManager;
 
-class Saml2BearerProvider extends ServiceProvider
+class Saml2BearerServiceProvider extends ServiceProvider
 {
 
     /**
