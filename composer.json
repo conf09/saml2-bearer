@@ -22,10 +22,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saml\\Bearer\\Saml2ServiceProvider"
+                "Saml\\Bearer\\Saml2BearerProvider"
             ]
         }
     },
     "minimum-stability": "stable"
 }
-

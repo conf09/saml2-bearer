@@ -27,14 +27,14 @@ For older versions of Laravel (<5.5), you have to add the service provider:
 ```php
 'providers' => [
         ...
-    	Saml\Bearer\Saml2ServiceProvider::class,
+    	Saml\Bearer\Saml2BearerProvider::class,
 ]
 ```
 
 #### Copy the package config to your local config with the publish command:
 
 ```shell
-php artisan vendor:publish --provider="Saml\Bearer\Saml2ServiceProvider"
+php artisan vendor:publish --provider="Saml\Bearer\Saml2BearerProvider"
 ```
 
 #### Configuration .env files
